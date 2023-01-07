@@ -40,7 +40,7 @@ function schedulePreload () {
 }
 
 <!-- this is necessary as the site cannot query the LFA API without user input -->
-<svelte:body on:click={schedulePreload}>
+<svelte:body on:click|once={schedulePreload}>
 ```
 
 This module uses $$restProps, which means you can pass any property to the root element, like style, class etc.
