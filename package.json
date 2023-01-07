@@ -1,0 +1,35 @@
+{
+  "name": "simple-font-select",
+  "version": "1.0.0",
+  "description": "Lightweight, fast. Made with Svelte.",
+  "files":[
+    "dist/*",
+    "src/*",
+    "docs/"
+  ],
+  "main": "src/simple-font-select.svelte",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "svelte",
+    "web-component"
+  ],
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "svelte": "^3.49.0",
+    "vite": "^3.0.2"
+  },
+  "license": "MIT",
+  "author": "ThaUnknown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaUnknown/simple-font-select.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThaUnknown/simple-font-select/issues"
+  },
+  "homepage": "https://github.com/ThaUnknown/simple-font-select#readme"
+}
