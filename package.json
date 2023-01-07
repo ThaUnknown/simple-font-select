@@ -1,6 +1,6 @@
 {
   "name": "simple-font-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, fast. Made with Svelte.",
   "files":[
     "dist/*",
